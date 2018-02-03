@@ -1,0 +1,9 @@
+<table border="1">
+<tr><th>Couleur</th><th>Valeur</th></tr>
+{% for card in cards %}
+<tr>
+<td>{{card.category}}</td>
+<td>{{card.value}}</td>
+</tr>
+{% endfor %}
+</table>
